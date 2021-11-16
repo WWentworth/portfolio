@@ -1,5 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background: black;
+    background: black; /*#1f2235 */
     font-family: "Baloo Tamma 2", cursive;
 }
 
@@ -32,5 +35,18 @@ body {
 }
 #about{
     background: #313552;
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid #f5ba09
+}
+#social-media{
+    background-color: #313552;
+}
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
     border-radius: 0.5rem;
 }
