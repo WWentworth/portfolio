@@ -15,7 +15,7 @@ body {
 }
 .navigation-link:hover{
     text-decoration:none;
-    border-bottom: 2px solid #f5ba09;
+    border-bottom: 2px solid cyan;
     transition: 0.5s ease;;
 }
 .main-container{
@@ -34,19 +34,21 @@ body {
     height: 56.9rem;
 }
 #about{
-    background: #313552;
+    background: #171b3a;
     border-radius: 0.5rem;
 }
 .card{
-    border-bottom: 8px solid #f5ba09
+    border-bottom: 8px solid cyan;
+    background: #171b3a;
+    color: cyan;
 }
 #social-media{
-    background-color: #313552;
+    background-color: #171b3a;
 }
 .media_link{
     padding: 1rem;
     max-width: 15rem;
     margin-left: 1rem;
-    border: 2px solid #f5ba09;
+    border: 2px solid cyan;
     border-radius: 0.5rem;
 }
