@@ -16,7 +16,7 @@ body {
 .navigation-link:hover{
     text-decoration:none;
     border-bottom: 2px solid cyan;
-    transition: 0.5s ease;;
+    transition: 1s ease;;
 }
 .main-container{
     min-height:100vh;
@@ -44,6 +44,11 @@ body {
 }
 #social-media{
     background-color: #171b3a;
+}
+#contact{
+    background-color: #171b3a;
+    border-bottom: 8px solid cyan;
+    margin-bottom: 3rem;
 }
 .media_link{
     padding: 1rem;
