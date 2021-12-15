@@ -12,7 +12,6 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css" />
@@ -130,42 +129,41 @@
       </div>
     </div>
   </div>
-  <div id="contact" class="container p-4">
-
-    <div class="container text-white">
-      <h4 class="text-info">Contact Me</h4>
-      <form id="contactForm" data-sb-form-api-token="f9e344df-82e7-4fb3-bfad-9e2938982326">
+  <div id="contact" class="container px-5 my-5 text-white">
+    <h1 class="text-info mb-3 pb-2">Contact Me</h1>
+    <form id="contactForm" data-sb-form-api-token="f9e344df-82e7-4fb3-bfad-9e2938982326">
         <div class="mb-3">
-          <label class="form-label" for="name">Name</label>
-          <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-          <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
         </div>
         <div class="mb-3">
-          <label class="form-label" for="emailAddress">Email Address</label>
-          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
-            data-sb-validations="required, email" />
-          <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
         </div>
         <div class="mb-3">
-          <label class="form-label" for="message">Message</label>
-          <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
-            data-sb-validations="required"></textarea>
-          <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+            <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
         </div>
         <div class="d-none" id="submitSuccessMessage">
-          <div class="text-center mb-3">Form submission successful!</div>
+            <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+                <p>To activate this form, sign up at</p>
+                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+            </div>
         </div>
         <div class="d-none" id="submitErrorMessage">
-          <div class="text-center text-danger mb-3">Error sending message!</div>
+            <div class="text-center text-danger mb-3">Error sending message!</div>
         </div>
-        <div class="col-3 media_link">
-          <div class="container text-white" <button class="btn-primary btn-info btn" type="submit">Submit</button>
-          </div>
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
         </div>
-    </div>
     </form>
-  </div>
+</div>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   <div id="social-media" class="container-fluid p-4">
     <div class="container text-white">
       <h4 class="text-info">Social Media</h4>
