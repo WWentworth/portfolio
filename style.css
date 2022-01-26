@@ -5,6 +5,10 @@ body {
     background: black; /*#1f2235 */
     font-family: "Baloo Tamma 2", cursive;
 }
+#head {
+    background-color: #171b3a;
+
+}
 
 /* main heading font */
 .m-heading {
