@@ -44,21 +44,25 @@ body {
 .card{
     border-bottom: 8px solid cyan;
     background: #171b3a;
-    color: cyan;
+    color: #5bc0de;
+}
+.card p{
+    color:white;
 }
 #social-media{
     background-color: #171b3a;
 }
 #contact{
     background-color: #171b3a;
-    border-bottom: 8px solid cyan;
+    border-bottom: 8px solid #5bc0de;
     margin-bottom: 3rem;
+    text-align:center;
 }
 .media_link{
     padding: 1rem;
     max-width: 15rem;
     margin-left: 1rem;
-    border: 2px solid cyan;
+    border: 2px solid #171b3a;
     border-radius: 0.5rem;
     color:white;
 }
@@ -72,6 +76,7 @@ body {
    font-size:1.5em;
 }
 #submitbtn{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    border:none;
 }
 
