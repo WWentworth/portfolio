@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <div class="container pt-2 fixed-top" id="head">
+  <div class="container pt-2 fixed-top rounded text-nowrap" id="head">
     <div class="row">
       <div class="col-4 d-flex justify-content-start align-items-center">
         <i class="fas fa-dog fa-2x text-info pb-3"></i>
@@ -36,7 +36,7 @@
       </div>
       <div class="col-8 pt-2">
         <div class="row">
-          <div class="col-2">
+          <div class="col-2.5">
             <a href="#about" class="text-white navigation-link nav-link">About</a>
           </div>
           <div class="col-2">
@@ -76,6 +76,7 @@
         <h3 class="text-info">About Me</h3>
         <h1 class="m-heading">One interesting fact:</h1>
         <h4>I own over 300 board games.</h4>
+        <br>
         <p>Hello, I'm <b class="text-info">William</b> from <b class="text-info">Indianapolis</b>
         </p>
 
@@ -95,16 +96,16 @@
     </div>
   </div>
   <div id="projects" class="container mt-3 pt-5">
-    <h1 class="text-info mb-3 pb-2">My Projects</h1>
+    <h1 class="text-info mb-3 pb-2 text-center">My Projects</h1>
     <div class="row">
       <div class="col-4 mb-5">
         <div class="card" style="width: 18rem;">
           <img src="images/workout.jpg" class="card-img-top p-2" alt="..." style="height: 13rem">
           <div class="card-body">
-            <h5 class="card-title">Fitness App</h5>
+            <h5 class="card-title text-center">Fitness App</h5>
             <p class="card-text">A Web API Fitness Application that allows the user to create workouts and meals, and
               also be able to track their progress.</p>
-            <a href="https://github.com/WWentworth/FitnessApp" class="btn btn-info ">See Project</a>
+            <a href="https://github.com/WWentworth/FitnessApp" class="btn btn-primary ">See Project</a>
           </div>
         </div>
       </div>
@@ -112,10 +113,10 @@
         <div class="card" style="width: 18rem;">
           <img src="images/SD_gold_badge.png" class="card-img-top p-2" alt="..." style="height: 13rem">
           <div class="card-body">
-            <h5 class="card-title">Gold Badge Challenges</h5>
+            <h5 class="card-title text-center">Gold Badge Challenges</h5>
             <p class="card-text">Three Console Applications focused on Lists and the CRUD to manipulate the lists from
               user input.</p>
-            <a href="https://github.com/WWentworth/GoldBadgeChallenges" class="btn btn-info">See Project</a>
+            <a href="https://github.com/WWentworth/GoldBadgeChallenges" class="btn btn-primary">See Project</a>
           </div>
         </div>
       </div>
@@ -123,10 +124,10 @@
         <div class="card" style="width: 18rem;">
           <img src="images/madlib.jpg" class="card-img-top p-2" alt="..." style="height: 13rem">
           <div class="card-body">
-            <h5 class="card-title">Dragon Madlib</h5>
+            <h5 class="card-title text-center">Dragon Madlib</h5>
             <p class="card-text">A madlib created using C# allowing user to input requested text and provides a story
               afterwards with the provided text.</p>
-            <a href="https://github.com/WWentworth/MadlibPairedProgramming" class="btn btn-info">See Project</a>
+            <a href="https://github.com/WWentworth/MadlibPairedProgramming" class="btn btn-primary">See Project</a>
           </div>
         </div>
       </div>
@@ -135,16 +136,16 @@
     <div class="card" style="width: 18rem;">
       <img src="images/storefront.jpg" class="card-img-top p-2" alt="..." style="height: 13rem">
       <div class="card-body">
-        <h5 class="card-title">Storefront Website</h5>
+        <h5 class="card-title ">Storefront Website</h5>
         <p class="card-text">A storefront created for an online board game store.</p>
-        <a href="https://github.com/WWentworth/StoreFront" class="btn btn-info">See Project</a>
+        <a href="https://github.com/WWentworth/StoreFront" class="btn btn-primary">See Project</a>
       </div>
     </div>
   </div>
 </div>
 </div>
-  <div id="contact" class="container px-5 my-5  text-white" >
-    <h1 class="text-info mb-3 pb-2">Contact Me</h1>
+  <div id="contact" class="container px-5 my-5 text-white rounded" >
+    <h2 class="text-info mb-3 pb-2 text-center">Contact Me</h2>
     <form action="https://formspree.io/f/xayvypey" method="POST">
   <div class="mb-3 container-fluid">
     <label class="form-label" for="emailAddress">Email</label>
@@ -155,48 +156,48 @@
   </div>
   </div>
   <div class="d-grid">
-    <button id="submitbtn" class="media_link btn btn-info btn-lg container-fluid" type="submit">Submit</button>
+    <button id="submitbtn" class="media_link btn btn-primary btn-lg container-fluid" type="submit">Submit</button>
   </div>
   </form>
   </div>
-  <div id="social-media" class="container-fluid p-4">
+  <div id="social-media" class="container pt2 p-1 rounded">
     <div class="container text-white">
-      <h4 class="text-info">Social Media</h4>
-      <h1 class="m-heading">See My Links Below</h1>
+      <h2 class="text-info text-center">Social Media</h2>
+      <h5 class="m-heading text-center">See My Links Below</h5>
       <div class="row pt-5">
         <a href="https://www.linkedin.com/in/wwentworth/">
-          <div id="slink" class="col-3 media_link btn">
+          <div id="slink" class="col-3 media_link btn-primary">
             <div class="row">
               <div class="col-6 d-flex justify-content-start">
                 <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
         </a>
       </div>
       <div class="col-6 d-flex justify-content-end align-items-center">
-        <i class="fab fa-linkedin fa-2x text-secondary"></i>
+        <i class="fab fa-linkedin fa-2x"></i>
       </div>
     </div>
   </div>
   <a href="https://github.com/WWentworth">
-    <div class="col-3 media_link btn">
+    <div class="col-3 media_link btn-primary">
       <div class="row">
         <div class="col-6 d-flex justify-content-start">
           <h3 class="pt-2 m-0 text-white">Github</h3>
         </div>
         <div class="col-6 d-flex justify-content-end align-items-center">
-          <i class="fab fa-github-square fa-2x text-secondary">
+          <i class="fab fa-github-square fa-2x">
   </a></i>
   </div>
   </div>
   </div>
   <a href="mailto:wwentworth@live.com">
-    <div class="col-3 media_link btn">
+    <div class="col-3 media_link btn-primary">
       <div class="row">
         <div class="col-6 d-flex justify-content-start">
           <h3 class="pt-2 m-0 text-white">Email</h3>
   </a>
   </div>
   <div class="col-6 d-flex justify-content-end align-items-center">
-    <i class="fas fa-envelope-square fa-2x text-secondary"></i>
+    <i class="fas fa-envelope-square fa-2x"></i>
   </div>
   </div>
   </div>
